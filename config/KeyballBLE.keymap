@@ -22,6 +22,12 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <40 41>;
+            layers = <2>;
+        };
     };
 
     macros {
@@ -78,10 +84,10 @@
 
         NUM {
             bindings = <
-&kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COMMA                               &kp QMARK        &kp HASH        &kp DLLR        &kp AMPERSAND    &kp DOUBLE_QUOTES
-&kp PLUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD       &mkp LCLK      &trans  &kp EXCLAMATION  &kp SLASH       &kp UP_ARROW    &kp PERCENT      &kp UNDERSCORE
-&kp MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &kp EQUAL      &trans  &kp AT           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON
-&kp SLASH  &kp ASTRK        &kp EQUAL        &trans           &trans           &trans         &trans  &trans                                                            &kp SEMICOLON
+&kp TAB    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COMMA                                             &kp QMARK              &kp HASH        &kp DLLR        &kp AMPERSAND    &kp DOUBLE_QUOTES
+&kp PLUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD       &mkp LCLK      &trans                &kp EXCLAMATION        &kp SLASH       &kp UP_ARROW    &kp PERCENT      &kp UNDERSCORE
+&kp MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &kp EQUAL      &trans                &kp AT                 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON
+&kp SLASH  &kp ASTRK        &kp EQUAL        &trans           &trans           &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                                   &kp SEMICOLON
             >;
         };
 
