@@ -22,21 +22,6 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <40 41>;
-            layers = <2>;
-        };
-    };
-
-    macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp>;
-            label = "TO_LAYER_0";
-        };
     };
 
     behaviors {
