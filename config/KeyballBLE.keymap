@@ -84,7 +84,7 @@
 
         NUM {
             bindings = <
-&kp TAB    &kp N7     &kp N8     &kp N9  &kp COMMA                                        &kp QMARK              &kp HASH        &kp DLLR        &kp AMPS         &kp DQT
+&trans     &kp N7     &kp N8     &kp N9  &kp COMMA                                        &kp QMARK              &kp HASH        &kp DLLR        &kp AMPS         &kp DQT
 &kp PLUS   &kp N4     &kp N5     &kp N6  &kp PERIOD  &mkp LCLK      &trans                &kp EXCLAMATION        &kp SLASH       &kp UP_ARROW    &kp PRCNT        &kp UNDER
 &kp MINUS  &kp N1     &kp N2     &kp N3  &kp N0      &kp EQUAL      &trans                &kp AT_SIGN            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON
 &kp SLASH  &kp ASTRK  &kp EQUAL  &trans  &trans      &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                                   &kp SEMICOLON
