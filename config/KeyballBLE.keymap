@@ -84,7 +84,7 @@
 
         NUM {
             bindings = <
-&trans     &kp N7     &kp N8     &kp N9                &kp COMMA                                              &kp QMARK        &kp HASH        &kp DLLR        &kp AMPS         &kp DQT
+&none      &kp N7     &kp N8     &kp N9                &kp COMMA                                              &kp QMARK        &kp HASH        &kp DLLR        &kp AMPS         &kp DQT
 &kp PLUS   &kp N4     &kp N5     &kp N6                &kp PERIOD       &mkp LCLK      &kp LEFT_PARENTHESIS   &kp EXCLAMATION  &kp SLASH       &kp UP_ARROW    &kp PRCNT        &kp UNDER
 &kp MINUS  &kp N1     &kp N2     &kp N3                &kp N0           &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON
 &kp SLASH  &kp ASTRK  &kp EQUAL  &mt LEFT_SHIFT LANG2  &mt LCTRL LANG1  &kp SPACE      &kp BACKSPACE          &kp ENTER                                                         &kp SEMICOLON
@@ -104,10 +104,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &kp F5     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &mkp RCLK  &mkp MB4  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
+&none  &none  &none  &none  &none                    &none  &none      &kp F5     &none     &none
+&none  &none  &none  &none  &none  &none      &none  &none  &mkp LCLK  &mkp RCLK  &mkp MB4  &none
+&none  &none  &none  &none  &none  &none      &none  &none  &none      &none      &none     &none
+&none  &none  &none  &none  &mo 0  &none      &none  &none                                  &none
             >;
         };
 
