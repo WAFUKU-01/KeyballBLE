@@ -40,14 +40,14 @@
         lang1_Layer0: lang1_Layer0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANG1 &to 0>;
+            bindings = <&mt LEFT_CONTROL LANG1 &to 0>;
             label = "LANG1_LAYER0";
         };
 
         lang2_Layer0: lang2_Layer0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANG2 &to 0>;
+            bindings = <&mt LEFT_SHIFT LANG2 &to 0>;
             label = "LANG2_LAYER0";
         };
 
