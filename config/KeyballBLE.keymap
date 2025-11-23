@@ -66,7 +66,7 @@
 &kp Q      &kp W    &kp E         &kp R                 &kp T                                                                      &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S    &kp D         &kp F                 &kp G                    &mkp LCLK                   &kp LEFT_PARENTHESIS  &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &kp Z      &kp X    &kp C         &kp V                 &kp B                    &kp LEFT_WIN                &kp RPAR              &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&lt 1 ESC  &kp TAB  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &mt RIGHT_CONTROL LANG1  &lt_to_layer_0 2 SPACE      &kp BACKSPACE         &lt 2 ENTER                             &kp DEL
+&lt 1 ESC  &kp TAB  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &mt RIGHT_CONTROL LANG1  &lt_to_layer_0 6 SPACE      &kp BACKSPACE         &lt 6 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -83,10 +83,10 @@
 
         NUM {
             bindings = <
-&none      &kp N7     &kp N8     &kp N9                &kp COMMA                                              &kp QMARK        &kp HASH        &kp DLLR        &kp AMPS         &kp DQT
-&kp PLUS   &kp N4     &kp N5     &kp N6                &kp PERIOD       &mkp LCLK      &kp LEFT_PARENTHESIS   &kp EXCLAMATION  &kp SLASH       &kp UP_ARROW    &kp PRCNT        &kp UNDER
-&kp MINUS  &kp N1     &kp N2     &kp N3                &kp N0           &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON
-&kp SLASH  &kp ASTRK  &kp EQUAL  &mt LEFT_SHIFT LANG2  &mt LCTRL LANG1  &kp SPACE      &kp BACKSPACE          &kp ENTER                                                         &kp SEMICOLON
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
